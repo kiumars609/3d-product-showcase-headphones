@@ -1,23 +1,35 @@
-# 3D Product Showcase — Headphones
+# 🎧 3D Product Showcase — Headphones
 
-Interactive 3D product showcase built with **React**, **Three.js**, **Sass**, and **Framer Motion**.  
-This demo uses procedural Three.js primitives to render a stylized headphones model (no external GLB required), supports rotation, zoom, and color variants — perfect for portfolio/showcase use.
+An interactive **3D product presentation** built with **React**, **Three.js**, **Sass**, and **Framer Motion**.  
+Rotate, zoom, and customize the look of a realistic 3D headphone model — designed for product landing pages and portfolios.
 
-## Features
-- Interactive 3D viewer (mouse & touch) with OrbitControls
-- Color presets to customize the product
-- Smooth ambient lighting & animated rotation
-- Responsive layout and polished Sass styling
-- Ready-to-deploy with Vercel (instructions below)
+🔗 Live Demo (soon on Vercel)  
+🔗 GitHub: [https://github.com/kiumars609/3d-product-showcase-headphones](https://github.com/kiumars609/3d-product-showcase-headphones)
 
-## Quick start
+---
+
+## 🚀 Tech Stack
+- ⚛️ React + Vite  
+- 🧊 Three.js (3D rendering)  
+- 💅 Sass (modular styling)  
+- 🪄 Framer Motion (smooth transitions)  
+- 🌗 Glassmorphism design style  
+- 📱 Fully responsive layout  
+
+---
+
+## 💡 Features
+- 🔁 Interactive 3D rotation and lighting  
+- 🎨 Live color theme switcher for the headphones  
+- 🧭 Smooth camera animations on scroll  
+- 🌈 Realistic reflections and soft shadows  
+- ⚡ Optimized for performance and modern browsers  
+
+---
+
+## 🛠️ Installation
 ```bash
-git clone https://github.com/YourUsername/3d-product-showcase-headphones.git
+git clone https://github.com/kiumars609/3d-product-showcase-headphones.git
 cd 3d-product-showcase-headphones
 npm install
 npm run dev
-```
-
-## Notes
-- The model is generated from Three.js primitives (torus + cylinders) so you can replace it with a GLB model in `public/model.glb` and update `Product3D.jsx` to load it using `GLTFLoader`.
-- For production quality image exports or higher fidelity, consider swapping the procedural model with a high-poly GLB and using environment maps (HDRI) for reflections.
