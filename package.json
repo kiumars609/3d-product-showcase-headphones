@@ -1,0 +1,22 @@
+{
+  "name": "3d-product-showcase-headphones",
+  "version": "1.0.0",
+  "private": true,
+  "description": "3D Product Showcase (Headphones) \u2014 React + Three.js + Sass. Interactive 3D viewer with color variants and animations.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.158.0",
+    "sass": "^1.73.0",
+    "framer-motion": "^10.12.16"
+  },
+  "devDependencies": {
+    "vite": "^5.1.0",
+    "@vitejs/plugin-react": "^4.0.0"
+  }
+}
